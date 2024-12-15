@@ -1,8 +1,22 @@
-Unreleased
+0.18.4
+------
+#### Changes
+- Elixir 1.18 compatibility (#333)
+
+0.18.3
+------
+#### Changes
+- Avoid warning messages for Cobertura
+  - Update Range to use function syntax (#332)
+
+0.18.2
 ------
 #### Enhancements
 - Print warnings about incorrectly used ignore-markers (#325), such as start-marker
 without a corresponding stop-marker, or two start-markers without a stop-marker in-between etc.
+
+#### Changes
+- Fix Elixir 1.17 single-quoted string warning (#327)
 
 0.18.1
 ------
